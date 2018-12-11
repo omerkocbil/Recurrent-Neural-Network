@@ -96,3 +96,12 @@ plt.xlabel('Time')
 plt.ylabel('Google Stock Price')
 plt.legend()
 plt.show()
+
+
+#saving the model
+regressor.save('my_model.h5')
+
+#use this for loading the saved model
+
+#from keras.models import load_model
+#model = load_model('my_model.h5')
